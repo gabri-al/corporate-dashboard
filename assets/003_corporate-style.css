@@ -1,0 +1,129 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Table of contents
+––––––––––––––––––––––––––––––––––––––––––––––––––
+- Html
+- Body
+- Dash Date Picker
+- Dash Dropdown
+- Dash Table
+- Img
+- Typography
+*/
+
+/* Html
+––––––––––––––––––––––––––––––––––––––––––––––––––*/
+html {
+  font-family: "Dosis" !important;
+  background: rgb(57, 81, 85);
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  width: 100% !important;
+  min-height: 100% !important;
+  min-width: 100% !important;
+  overflow-x: hidden !important;
+}
+
+/* Body
+––––––––––––––––––––––––––––––––––––––––––––––––––*/
+body {
+  font-family: "Dosis" !important;
+  background-color: transparent; /* By default the body color is white, making any transparent component, actually white!*/
+}
+
+/* Dash Date Picker
+https://github.com/plotly/dash-core-components/blob/557d2fd4987c437265d220f71ee69c2d0616526c/dash_core_components/react-dates%4012.3.0.css
+––––––––––––––––––––––––––––––––––––––––––––––––––*/
+.DateInput_input, .DateInput_input_1 {
+   color: inherit !important;
+   text-align: center;
+   font-size: inherit ! important;
+   Height: 25px !important;
+   Width: 100% !important;
+   padding-left: 3px !important;
+   padding-right: 3px !important;
+}
+
+.DateInput {
+  color: inherit !important;
+  width: 95px !important;
+}
+
+.DateRangePickerInput_arrow_svg, .DateRangePickerInput_arrow_svg_1 {
+  Height: 10px !important;
+  Width: 10px !important;
+}
+
+/* Calendar date start and end */
+.CalendarDay__selected, .CalendarDay__selected:active, .CalendarDay__selected:hover {
+  background: rgb(41, 56, 55) !important;
+  border: 1px double rgb(41, 56, 55) !important;
+  color: rgb(251, 251, 252) !important;
+}
+
+/* Calendar in between start and end date */
+.CalendarDay__selected_span {
+    background: rgb(93, 113, 120) !important;
+    border: 1px double rgb(93, 113, 120) !important;
+    color: rgb(251, 251, 252) !important;
+}
+
+.CalendarDay__selected_span:active, .CalendarDay__selected_span:hover {
+    background: rgb(57, 81, 85) !important;
+    border: 1px double rgb(57, 81, 85) !important;
+    color: rgb(251, 251, 252) !important;
+}
+
+/* Calendar default help button */
+.DayPickerKeyboardShortcuts_show__bottomRight::before {
+    border-top: 26px solid transparent;
+    border-right: 33px solid rgb(93, 113, 120) !important;
+    bottom: 0;
+    right: 0;
+}
+
+.DayPickerKeyboardShortcuts_show__bottomRight:hover .DayPickerKeyboardShortcuts_show__bottomRight:active {
+    border-top: 26px solid transparent;
+    border-right: 33px solid rgb(57, 81, 85) !important;
+    bottom: 0;
+    right: 0;
+}
+
+/* Dash Dropdown
+––––––––––––––––––––––––––––––––––––––––––––––––––*/
+.VirtualizedSelectOption {white-space: nowrap;}
+
+/* Dash Table
+––––––––––––––––––––––––––––––––––––––––––––––––––*/
+tr:hover {
+  background-color: rgb(41, 56, 55) !important;
+}
+
+/* Img
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+img {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align:middle;
+  border-style: none;
+}
+
+/* Typography
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Dosis" !important;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  vertical-align: central;
+  text-align: center;
+  font-weight: 350;
+  color: rgb(251, 251, 252);
+  }
+
+p {
+  font-weight: 300;
+}
