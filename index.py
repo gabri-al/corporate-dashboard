@@ -3,6 +3,7 @@ import dash_html_components as html
 import dash
 
 from app import app
+from app import server
 from layouts import sales, page2, page3
 import callbacks
 
