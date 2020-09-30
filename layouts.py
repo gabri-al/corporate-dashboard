@@ -399,7 +399,7 @@ sales = html.Div([
     #Row 3 : Filters
     html.Div([ # External row
 
-        html.Div([ # External 10-column
+        html.Div([ # External 12-column
 
             html.Div([ # Internal row
 
