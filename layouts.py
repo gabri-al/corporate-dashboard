@@ -399,7 +399,7 @@ sales = html.Div([
     #Row 3 : Filters
     html.Div([ # External row
 
-        html.Div([ # External 12-column
+        html.Div([ # External 10-column
 
             html.Div([ # Internal row
 
@@ -507,7 +507,7 @@ sales = html.Div([
         ],
         className = 'col-1'), # Blank 1 column
 
-        html.Div([ # External 12-column
+        html.Div([ # External 10-column
 
             html.H2(children = "Sales Performances",
                     style = {'color' : corporate_colors['white']}),
@@ -615,7 +615,7 @@ sales = html.Div([
 ])
 
 ####################################################################################################
-# 002 - PRODUCTION
+# 002 - Page 2
 ####################################################################################################
 
 page2 = html.Div([
@@ -652,7 +652,7 @@ page2 = html.Div([
 ])
 
 ####################################################################################################
-# 003 - QUALITY
+# 003 - Page 3
 ####################################################################################################
 
 page3 = html.Div([
